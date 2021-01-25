@@ -58,7 +58,7 @@ function Bmi(props) {
     <>
       <Navbar />
       <div className="App-header">
-        <span>BMI Calculator (For Age 20+)</span>
+        <span>BMI Calculator</span>
 
         <div>
           Enter Height : &nbsp;

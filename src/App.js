@@ -1,6 +1,7 @@
 import React, { createContext } from "react";
 // import ComponentA from "./ComponentA";
-import Bmi from "./BMI/Bmi";
+// import Bmi from "./BMI/Bmi";
+import Weather from "./Weather/Weather";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const FirstName = createContext();
@@ -26,7 +27,7 @@ function App() {
           <ComponentA />
           </LastName.Provider>
         </FirstName.Provider> */}
-      <Bmi />
+      <Weather />
     </>
   );
 }

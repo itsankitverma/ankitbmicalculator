@@ -1,0 +1,60 @@
+.callAtcenter {
+  display: grid;
+  place-items: center;
+  background-color: rgb(85, 75, 75);
+  margin-right: 400px;
+  margin-left: 400px;
+  color: rgb(255, 255, 255);
+}
+
+.cityDetail {
+  background-color: rgb(33, 33, 236);
+  margin-top: 50px;
+  padding: 80px 40px;
+  margin-right: 400px;
+  margin-left: 400px;
+  color: white;
+}
+.cityTop {
+  font-size: 30px;
+  position: relative;
+  top: -60px;
+}
+.cityTemp {
+  font-size: 100px;
+  margin-top: -120px;
+  position: relative;
+  top: 40px;
+}
+.cityMain {
+  margin-top: -20px;
+  font-size: 25px;
+  position: relative;
+  top: 35px;
+  left: 84px;
+}
+.cityText {
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: 30px;
+}
+.cityTime {
+  position: relative;
+  top: 65px;
+  left: 64px;
+  font-size: 20px;
+  margin-top: -30px;
+}
+.cityDayNight {
+  float: right;
+  position: relative;
+  top: -120px;
+}
+.cityDetails {
+  background-image: linear-gradient(
+    rgba(54, 113, 232, 0.736),
+    rgba(255, 255, 255, 0.945)
+  );
+  color: white;
+}
